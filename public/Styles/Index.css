@@ -1,0 +1,33 @@
+#parAboutMe {
+  font-weight: normal;
+  font: medium;
+  color: #414649;
+}
+.indexSection {
+  background-color: #d2e9e9;
+}
+html {
+  background-color: #c4dfdf;
+  font-family: Georgia;
+  font-size: medium;
+  color: #414649;
+}
+header {
+  text-align: center;
+  background-color: #e3f4f4;
+  height: 200px;
+}
+h2 {
+  color: #414649;
+  font-style: italic;
+  text-align: center;
+}
+footer {
+  background-color: #f8f6f4;
+}
+a:link {
+  color: rgb(28, 120, 206);
+}
+a:visited {
+  color: rgb(7, 59, 107);
+}
