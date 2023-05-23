@@ -5,12 +5,25 @@
 }
 .indexSection {
   background-color: #d2e9e9;
+  border: 2px solid;
+  padding: 10px;
 }
-.specialtiesList {
+.indexPageLink {
+  background-color: #d2e9e9;
+  border: 2px solid;
+  padding: 10px;
+  height: 60px;
+}
+.bulletList {
   text-align: center;
 }
-.specialtiesList > ul {
+.bulletList > ul {
   display: inline-block;
+}
+.indexLinks {
+  margin: auto;
+  padding: 10px;
+  height: 20px;
 }
 html {
   background-color: #c4dfdf;
@@ -19,18 +32,25 @@ html {
   color: #414649;
 }
 header {
-  text-align: center;
   background-color: #e3f4f4;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  border: 4px solid;
+  padding: 40px;
   height: 200px;
   font-family: Simplifica;
   font-weight: normal;
-  font-size: 70px;
+  font-size: 140px;
 }
 h2 {
   color: #414649;
   font-style: italic;
   font-size: 30px;
   text-align: center;
+  margin: auto;
+  padding: 10px;
 }
 p {
   text-align: center;
@@ -39,13 +59,19 @@ li {
   text-align: left;
 }
 footer {
-  background-color: #f8f6f4;
+  background-color: #e3f4f4;
+  text-align: justify;
+}
+span {
+  width: 100%;
+  height: 1em;
+  display: inline-block;
 }
 a:link {
   color: rgb(28, 120, 206);
 }
 a:visited {
-  color: rgb(7, 59, 107);
+  color: rgb(5, 80, 150);
 }
 
 @font-face {
