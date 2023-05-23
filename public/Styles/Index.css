@@ -6,6 +6,12 @@
 .indexSection {
   background-color: #d2e9e9;
 }
+.specialtiesList {
+  text-align: center;
+}
+.specialtiesList > ul {
+  display: inline-block;
+}
 html {
   background-color: #c4dfdf;
   font-family: Georgia;
@@ -16,11 +22,21 @@ header {
   text-align: center;
   background-color: #e3f4f4;
   height: 200px;
+  font-family: Simplifica;
+  font-weight: normal;
+  font-size: 70px;
 }
 h2 {
   color: #414649;
   font-style: italic;
+  font-size: 30px;
   text-align: center;
+}
+p {
+  text-align: center;
+}
+li {
+  text-align: left;
 }
 footer {
   background-color: #f8f6f4;
@@ -30,4 +46,12 @@ a:link {
 }
 a:visited {
   color: rgb(7, 59, 107);
+}
+
+@font-face {
+  font-family: "Simplifica";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Simplifica"),
+    url("./Fonts/SIMPLIFICA\ Typeface.woff") format("woff");
 }
