@@ -70,6 +70,11 @@ h2 {
   text-align: center;
   margin: auto;
 }
+h3 {
+  color: #414649;
+  font-size: 1.5vw;
+  margin: 6px;
+}
 p {
   text-align: center;
 }
