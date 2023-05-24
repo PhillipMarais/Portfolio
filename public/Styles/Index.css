@@ -1,20 +1,36 @@
 #parAboutMe {
-  max-width: 900px;
+  max-width: 90vw;
   margin: auto;
   font-weight: normal;
   font: medium;
   color: #414649;
 }
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  font-family: play;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
 .indexSection {
   background-color: #d2e9e9;
-  border: 2px solid;
-  padding: 10px;
-}
-.indexPageLink {
-  background-color: #d2e9e9;
-  border: 2px solid;
-  padding: 10px;
-  height: 60px;
+  border: 0.2vw solid;
+  padding: 2vw;
+  height: auto;
 }
 .bulletList {
   text-align: center;
@@ -24,13 +40,13 @@
 }
 .indexLinks {
   margin: auto;
-  padding: 10px;
-  height: 20px;
+  padding: 2vw;
+  height: 1.6vh;
 }
 html {
   background-color: #c4dfdf;
   font-family: Georgia;
-  font-size: medium;
+  font-size: 1.1vw;
   color: #414649;
 }
 header {
@@ -39,19 +55,20 @@ header {
 }
 h1 {
   text-align: center;
-  border: 4px solid;
-  padding: 40px;
+  border: 0.2vw solid;
+  padding: 3vw;
   font-family: Simplifica;
   font-weight: normal;
   font-size: 10.2vw;
+  margin: auto;
 }
 h2 {
   color: #414649;
   font-style: italic;
-  font-size: 30px;
+  font-size: 2.5vw;
+  font-family: play;
   text-align: center;
   margin: auto;
-  padding: 10px;
 }
 p {
   text-align: center;
@@ -81,4 +98,11 @@ a:visited {
   font-weight: normal;
   src: local("Simplifica"),
     url("./Fonts/SIMPLIFICA\ Typeface.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Play-Regular"), url("./Fonts/Play-Regular.ttf") format("woff");
 }
