@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "StockManagementDemo",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
